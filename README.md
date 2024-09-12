@@ -1,20 +1,33 @@
-# Data Preprocessing and Analysis Project
-This repository contains the data preprocessing and analysis project completed as part of a course requirement. The project focuses on cleaning, transforming, and exploring a dataset to answer specific business questions.
+# Hands On Data Science Project with Python: Data Manipulation
+
+## Project Overview
+This project is aimed at demonstrating skills in data manipulation using Python. The focus is on cleaning, transforming, and exploring datasets using popular libraries like Pandas and NumPy.
 
 ## Objectives
-1. Perform data manipulation on the provided dataset.
-2. Standardize the data.
-3. Transform the data.
-4. Perform melt and unmelt operations on data.
-5. Explore data manipulation processes 
+- Perform data manipulation processes such as cleaning, standardizing, and transforming data.
+- Demonstrate data melt and unmelt techniques.
+- Explore the dataset to answer key questions based on the analysis.
 
-## Dataset
-The dataset used in this project is the Telco Customer Churn, consisting of 7043 rows and 21 columns. Each row represents a customer, each column contains customer’s attributes described on the column Metadata.
+## Libraries Used
+- Pandas
+- NumPy
 
-## Purpose
-1. **The dataset contains only active customers with non-zero tenure.**
-2. **Analyzing a subset of customers who are single and independent.**
-3. **Analyze and compare the average and median total charges for each type of contract.**
-4. **Analyze the interaction between contract types and payment methods in terms of average total charges.**
+## Assignment Breakdown
+1. **Data Preparation**: 
+   - Import necessary libraries (Pandas, NumPy).
+   - Load the dataset from a CSV file.
 
+2. **Data Cleaning**: 
+   - Identify and handle missing or erroneous data.
+   - Standardize data where needed.
 
+3. **Data Transformation**:
+   - Apply melt and unmelt (pivot) functions.
+   - Use transformations like scaling, normalization, or applying mathematical functions.
+
+4. **Exploratory Data Analysis**: 
+   - Answer specific questions about the dataset, such as finding the maximum, mean, or other statistics.
+
+## Files in Repository
+- `code.ipynb`: Jupyter Notebook containing the code and explanations for the project.
+- `telco_customer_churn.csv`: Dataset used for analysis.
