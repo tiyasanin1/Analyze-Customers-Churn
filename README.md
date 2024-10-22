@@ -29,5 +29,5 @@ This project is aimed at demonstrating skills in data manipulation using Python.
    - Answer specific questions about the dataset, such as finding the maximum, mean, or other statistics.
 
 ## Files in Repository
-- `code.ipynb`: Jupyter Notebook containing the code and explanations for the project.
-- `telco_customer_churn.csv`: Dataset used for analysis.
+- notebook/`code.ipynb`: Jupyter Notebook containing the code and explanations for the project.
+- data/`telco_customer_churn.csv`: Dataset used for analysis.
